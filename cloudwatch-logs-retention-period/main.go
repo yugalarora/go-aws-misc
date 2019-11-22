@@ -35,7 +35,7 @@ func recurse(svc *cloudwatchlogs.CloudWatchLogs, next *string) {
 		recurse(svc, nt)
 	} else {
 		var days int64
-		// days to set retention for
+		// days to set retention for:
 		days = 7
 		setexpiry(svc, listtoupdate, days)
 	}
