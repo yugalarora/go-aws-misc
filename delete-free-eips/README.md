@@ -1,4 +1,4 @@
-# Script deleted free Elastic IP's across all AWS Regions for your account
+# Script deletes free Elastic IP's across all AWS Regions for your account
 *An ElasticIP which is not associated will cost you*
 
 *Assumes you've AWS Access Keys and Secret ID setup via aws configure command in your runtime*
