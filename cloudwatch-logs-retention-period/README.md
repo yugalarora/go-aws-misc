@@ -1,4 +1,4 @@
-# Script sets retention perdiod on cloudwatch log groups where it is not set already
+# Script sets retention period on cloudwatch log groups where it is not set already
 *for ex when you create a lambda function using AWS Console, no expiration is set on corresponding cloudwatch logs*
 
 *Assumes you've AWS Access Keys and Secret ID setup via aws configure command in your runtime*
